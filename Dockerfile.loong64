@@ -1,0 +1,7 @@
+FROM cr.loongnix.cn/yakshaving-art/multiarch-alpine-base:latest-092a46c7c3ff6a
+
+COPY alertsnitch-loong64 /alertsnitch
+
+EXPOSE 9567
+
+ENTRYPOINT [ "/alertsnitch" ]
